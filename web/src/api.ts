@@ -1,6 +1,6 @@
 import { AuthRequest, AuthResponse, RegisterRequest, RegisterResponse, Post } from './types';
 
-const API_BASE = import.meta.env.DEV ? '' : 'https://shiny-yodel-5gxvp9qj9r9w2495q-8080.app.github.dev';
+const API_BASE = import.meta.env.DEV ? '' : 'https://shiny-yodel-5gxvp9qj9r9w2495q-8080.app.github.dev/';
 
 export async function register(data: RegisterRequest): Promise<RegisterResponse> {
   console.log('=== Регистрация ===');
